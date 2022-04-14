@@ -1,0 +1,59 @@
+.countriesTable {
+  padding: 10px;
+  margin: auto;
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(7, 0, 0);
+}
+.countriesTableHeaderRow {
+  background-color: rgba(36, 144, 216, 0.479);
+  color: rgb(18, 32, 109);
+  font-weight: bold;
+  font-size: 20px;
+  height: 50px;
+}
+.countriesTableBodyRow:nth-child(odd) {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+.countriesTableBodyRow {
+  background-color: rgb(220, 242, 255);
+  height: 40px;
+}
+.countriesTableBodyRow:hover {
+  background-color: rgb(161, 154, 255);
+}
+.countriesTable tr td {
+  height: 30px;
+}
+
+.countryName,
+.area {
+  cursor: pointer;
+}
+.arrowButton {
+  background: none;
+  color: rgb(44, 14, 179);
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.fieldsContainer {
+  text-align: left;
+}
+
+#tableDiv {
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  text-align: center;
+}

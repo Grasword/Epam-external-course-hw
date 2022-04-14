@@ -1,0 +1,162 @@
+/* START: Task 1 Styles */
+table {
+  width: 600px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  height: 600px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  cursor: pointer;
+}
+table,
+table td,
+table th {
+  border: 3px solid #050505;
+}
+table td,
+table th {
+  width: 200px;
+  height: 200px;
+}
+table th {
+  font-weight: normal;
+}
+
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+.container {
+  padding-top: 50px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.container__item--top {
+  min-height: 25px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+  min-width: 200px;
+  background-color: rgba(211, 211, 255, 0.527);
+  text-align: center;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form__input {
+  margin: auto;
+  height: 20px;
+  min-width: 300px;
+}
+.btn {
+  margin: 5px;
+  margin-left: 10px;
+  height: 25px;
+  background-color: white;
+  color: black;
+  border: 1px solid #040a04;
+}
+:disabled {
+  color: rgb(211, 211, 211);
+  border: 1px solid #a8a8a8;
+}
+
+.invalidDiv {
+  min-height: 25px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+  min-width: 200px;
+  text-align: center;
+  background-color: rgb(255, 146, 146);
+}
+.invalidInput {
+  border: 1px solid red;
+  margin: auto;
+  height: 20px;
+  min-width: 300px;
+}
+.invalidInput:focus {
+  border: 1px solid red;
+  outline: none !important;
+}
+.validDiv {
+  min-height: 25px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+  min-width: 200px;
+  text-align: center;
+  background-color: rgb(50, 156, 50);
+}
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+
+.field {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 330px;
+  background-image: url(./assets/court.png);
+  background-size: cover;
+}
+
+.field__scoreZoneA {
+  box-sizing: border-box;
+  position: relative;
+  left: 32px;
+  top: 156px;
+  width: 15px;
+  height: 15px;
+}
+.field__scoreZoneB {
+  box-sizing: border-box;
+  position: relative;
+  left: 565px;
+  top: 141px;
+  width: 15px;
+  height: 15px;
+}
+.field__ball {
+  background-image: url(./assets/ball.png);
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 115px;
+  left: 287px;
+}
+.scoreboard {
+  width: 600px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.scoreAlert {
+  color: red;
+  font-size: 30px;
+  height: 35px;
+}
+
+/* END: Task 3 Styles */

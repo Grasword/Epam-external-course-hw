@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Homework 9 - JS DOM Events</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="task1">
+      <!-- <template> -->
+      <table id="table">
+        <tr>
+          <td class="firstColumnCell">Cell</td>
+          <td class="cell">Cell</td>
+          <td class="cell">Cell</td>
+        </tr>
+        <tr>
+          <td class="firstColumnCell">Cell</td>
+          <td class="cell">Cell</td>
+          <td class="specialCell">Special Cell</td>
+        </tr>
+        <tr>
+          <td class="firstColumnCell">Cell</td>
+          <td class="cell">Cell</td>
+          <td class="cell">Cell</td>
+        </tr>
+      </table>
+      <!-- </template> -->
+    </div>
+    <div id="task2">
+      <!-- <template> -->
+      <div class="container">
+        <div class="container__item">
+          <div class="container__item container__item--top">Type phone number in format +380*********</div>
+          <form class="form">
+            <input
+              class="form__input"
+              placeholder="Type phone number in format +380*********"
+              type="tel"
+              pattern="[+380][0-9]{13}"
+            />
+            <button type="button" class="btn">Send</button>
+          </form>
+        </div>
+      </div>
+      <!-- </template> -->
+    </div>
+    <div id="task3">
+      <!-- <template> -->
+      <div class="field">
+        <div class="field__scoreZoneA"></div>
+        <div class="field__scoreZoneB"></div>
+        <div class="field__ball"></div>
+      </div>
+      <div class="scoreboard">
+        <span class="scoreboard__teamAScore"></span>
+        <span class="scoreboard__teamBScore"></span>
+        <div class="scoreAlert"></div>
+      </div>
+      <!-- </template> -->
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
